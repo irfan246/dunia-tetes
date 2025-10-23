@@ -1,5 +1,5 @@
 {
-  "firstLayout": "",
+  "firstLayout": "Home",
   "gdVersion": {
     "build": 243,
     "major": 5,
@@ -794,6 +794,109 @@
         "name": "KETUK.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "CEPATT! Sebelum kamu berubah menjadi air..png",
+        "kind": "image",
+        "metadata": "",
+        "name": "CEPATT! Sebelum kamu berubah menjadi air..png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "background waktu.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "background waktu.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Toasty Milk.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Toasty Milk.ttf",
+        "userAdded": false
+      },
+      {
+        "file": "background home.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "background home.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "mulai.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mulai.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "pengaturan.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pengaturan.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "kabut home.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "kabut home.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "title.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "title.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Tanah Home.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tanah Home.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "rumah.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "rumah.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "background level2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "background level2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "kabut level2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "kabut level2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "pagar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pagar.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -805,6 +908,1150 @@
   "objectsGroups": [],
   "variables": [],
   "layouts": [
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Home",
+      "name": "Home",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.4481978045410357,
+        "windowMask": false,
+        "selectedLayer": ""
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Background",
+          "persistentUuid": "635a1889-08b7-49e2-9a7b-7d28e5fb5636",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Kabut",
+          "persistentUuid": "dbf337c7-5168-40c7-8821-8059c33334b2",
+          "width": 0,
+          "x": 1285,
+          "y": -43,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "flippedX": true,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Kabut2",
+          "persistentUuid": "db6e3ef9-42af-461e-96f9-8ecfd2d8313c",
+          "width": 0,
+          "x": -851,
+          "y": 7,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Ground",
+          "persistentUuid": "6ac7655c-c062-49fd-afb8-d47159feb8ca",
+          "width": 0,
+          "x": 0,
+          "y": 604,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Home",
+          "persistentUuid": "893d9bec-11fa-4044-9e3f-8cb49a78071f",
+          "width": 0,
+          "x": 109,
+          "y": 243,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 232,
+          "layer": "",
+          "name": "Tree",
+          "persistentUuid": "ac79e70b-5aa9-4091-9c3f-593ef303a165",
+          "width": 161.53,
+          "x": -60,
+          "y": 381,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Title",
+          "persistentUuid": "305bfc5a-6de5-4f19-b5e0-6b2a7f9c7ecb",
+          "width": 0,
+          "x": 223,
+          "y": -206,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 83,
+          "layer": "",
+          "name": "Button_Pengaturan",
+          "opacity": 0,
+          "persistentUuid": "7ce6ec65-2bf3-4a80-bc4e-424e9cfe389b",
+          "width": 366,
+          "x": 850,
+          "y": 486,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 103,
+          "layer": "",
+          "name": "Button_Mulai",
+          "opacity": 0,
+          "persistentUuid": "a447698f-fce3-4b40-9636-8e920ccb8134",
+          "width": 274,
+          "x": 893,
+          "y": 351,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Awan",
+          "persistentUuid": "aae9cb88-57ee-41c6-8e39-f1d130a49abe",
+          "width": 428,
+          "x": -3,
+          "y": 4,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 132,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Awan",
+          "persistentUuid": "58f9a5cf-e749-4e00-8057-bdbf19628008",
+          "width": 439,
+          "x": 494,
+          "y": 76,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 132,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Awan",
+          "persistentUuid": "02e061d3-c02b-49a2-9bba-ed3cc70eba3f",
+          "width": 439,
+          "x": 822,
+          "y": -16,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 132,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Awan",
+          "persistentUuid": "aa6f6a7f-186e-44f5-967a-80c90d722950",
+          "width": 439,
+          "x": 1072,
+          "y": 129,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 132,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Awan",
+          "persistentUuid": "b9a0998d-e9f9-4b08-92c1-22f7034930c0",
+          "width": 439,
+          "x": -358,
+          "y": 62,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 132,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Awan",
+          "persistentUuid": "2a58cc72-47eb-440e-86cf-e634d6ec29f6",
+          "width": 439,
+          "x": 342,
+          "y": -87,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Background",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "background home.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1280,
+                            "y": 0
+                          },
+                          {
+                            "x": 1280,
+                            "y": 720
+                          },
+                          {
+                            "x": 0,
+                            "y": 720
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Awan",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "EllipseMovement",
+              "type": "EllipseMovement::EllipseMovement",
+              "RadiusX": 2000,
+              "RadiusY": 0,
+              "LoopDuration": 10,
+              "InitialTurningLeft": false,
+              "InitialDirectionAngle": 1,
+              "ShouldRotate": false,
+              "RotationOffset": 0,
+              "CenterX": 0,
+              "CenterY": 0,
+              "MovementAngle": 0,
+              "OldX": 2.0247e-320,
+              "OldY": 2.0247e-320
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "awan1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 603,
+                            "y": 0
+                          },
+                          {
+                            "x": 603,
+                            "y": 180
+                          },
+                          {
+                            "x": 0,
+                            "y": 180
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Button_Mulai",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "mulai.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 289,
+                            "y": 0
+                          },
+                          {
+                            "x": 289,
+                            "y": 119
+                          },
+                          {
+                            "x": 0,
+                            "y": 119
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Button_Pengaturan",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "pengaturan.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 383,
+                            "y": 0
+                          },
+                          {
+                            "x": 383,
+                            "y": 99
+                          },
+                          {
+                            "x": 0,
+                            "y": 99
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Kabut",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "kabut home.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 849,
+                            "y": 0
+                          },
+                          {
+                            "x": 849,
+                            "y": 1097
+                          },
+                          {
+                            "x": 0,
+                            "y": 1097
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Title",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "title.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 38
+                          },
+                          {
+                            "x": 831,
+                            "y": 38
+                          },
+                          {
+                            "x": 831,
+                            "y": 192
+                          },
+                          {
+                            "x": 3,
+                            "y": 192
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Ground",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Tanah Home.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1280,
+                            "y": 0
+                          },
+                          {
+                            "x": 1280,
+                            "y": 136
+                          },
+                          {
+                            "x": 0,
+                            "y": 136
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Tree",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "pohon.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 443,
+                            "y": 0
+                          },
+                          {
+                            "x": 443,
+                            "y": 656
+                          },
+                          {
+                            "x": 0,
+                            "y": 656
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Home",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "rumah.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 591,
+                            "y": 0
+                          },
+                          {
+                            "x": 591,
+                            "y": 381
+                          },
+                          {
+                            "x": 0,
+                            "y": 381
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Kabut2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "kabut home.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 849,
+                            "y": 0
+                          },
+                          {
+                            "x": 849,
+                            "y": 1097
+                          },
+                          {
+                            "x": 0,
+                            "y": 1097
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Background"
+          },
+          {
+            "objectName": "Awan"
+          },
+          {
+            "objectName": "Button_Mulai"
+          },
+          {
+            "objectName": "Button_Pengaturan"
+          },
+          {
+            "objectName": "Kabut"
+          },
+          {
+            "objectName": "Kabut2"
+          },
+          {
+            "objectName": "Title"
+          },
+          {
+            "objectName": "Ground"
+          },
+          {
+            "objectName": "Tree"
+          },
+          {
+            "objectName": "Home"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+              },
+              "parameters": [
+                "Kabut",
+                "Tween",
+                "\"kabut1X\"",
+                "550",
+                "\"linear\"",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+              },
+              "parameters": [
+                "Kabut2",
+                "Tween",
+                "\"kabut2X\"",
+                "-301",
+                "\"linear\"",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+              },
+              "parameters": [
+                "Title",
+                "Tween",
+                "\"titleY\"",
+                "42",
+                "\"linear\"",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "Button_Mulai",
+                "Tween",
+                "\"mulaiOpacity\"",
+                "255",
+                "\"linear\"",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "Button_Pengaturan",
+                "Tween",
+                "\"pengaturanOpacity\"",
+                "255",
+                "\"linear\"",
+                "1",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "EllipseMovement",
+          "type": "EllipseMovement::EllipseMovement"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ]
+    },
     {
       "b": 209,
       "disableInputWhenNotFocused": true,
@@ -860,6 +2107,11 @@
           "name": "CharY",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "waktu",
+          "type": "number",
+          "value": 12
         }
       ],
       "instances": [
@@ -1631,6 +2883,54 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 118,
+          "layer": "Waktu",
+          "name": "Text_Info",
+          "persistentUuid": "d726fe44-7f02-4a4d-baf0-adf1463b54d0",
+          "width": 845,
+          "x": 226,
+          "y": 367,
+          "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Waktu",
+          "name": "Background_Waktu",
+          "persistentUuid": "7102db7f-b99a-4dd9-ae70-4c93fb871a09",
+          "width": 0,
+          "x": 518,
+          "y": 189,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Waktu",
+          "name": "Waktu",
+          "persistentUuid": "24972f26-3e5f-4f58-80e4-ae51ee3c31e9",
+          "width": 0,
+          "x": 528,
+          "y": 210,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -2065,8 +3365,8 @@
           "behaviors": [
             {
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "platformType": "NormalPlatform",
               "canBeGrabbed": false,
               "yGrabOffset": 0
             },
@@ -2168,60 +3468,12 @@
           ],
           "animations": [
             {
-              "name": "idle",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "bunga.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 30,
-                            "y": 0
-                          },
-                          {
-                            "x": 30,
-                            "y": 47
-                          },
-                          {
-                            "x": 0,
-                            "y": 47
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
               "name": "mekar",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.2,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
@@ -2481,7 +3733,7 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
+                        "x": 3.5,
                         "y": 0
                       },
                       "centerPoint": {
@@ -2517,7 +3769,7 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
+                        "x": 13,
                         "y": 0
                       },
                       "centerPoint": {
@@ -2553,7 +3805,7 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
+                        "x": 24.5,
                         "y": 0
                       },
                       "centerPoint": {
@@ -2589,7 +3841,7 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
+                        "x": 26.5,
                         "y": 0
                       },
                       "centerPoint": {
@@ -2625,7 +3877,7 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
+                        "x": 26.5,
                         "y": 0
                       },
                       "centerPoint": {
@@ -2661,7 +3913,7 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
+                        "x": 26.5,
                         "y": 0
                       },
                       "centerPoint": {
@@ -2697,7 +3949,7 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
+                        "x": 26.5,
                         "y": 0
                       },
                       "centerPoint": {
@@ -5553,10 +6805,10 @@
               "Flippable": "Flippable"
             },
             {
-              "gravity": 1000,
               "isFolded": true,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "gravity": 1000,
               "acceleration": 1500,
               "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
@@ -6216,10 +7468,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": false,
               "name": "Platform",
-              "platformType": "Jumpthru",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": false,
+              "platformType": "Jumpthru",
               "yGrabOffset": 0
             }
           ],
@@ -6344,10 +7596,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": false,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": false,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -6461,6 +7713,179 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Text_Info",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "CEPATT! Sebelum kamu berubah menjadi air..png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 748,
+                            "y": 1
+                          },
+                          {
+                            "x": 748,
+                            "y": 100
+                          },
+                          {
+                            "x": 0,
+                            "y": 100
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Background_Waktu",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "background waktu.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 262,
+                            "y": 0
+                          },
+                          {
+                            "x": 262,
+                            "y": 138
+                          },
+                          {
+                            "x": 0,
+                            "y": 138
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Waktu",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "00:12",
+          "font": "Toasty Milk.ttf",
+          "textAlignment": "left",
+          "characterSize": 96,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "00:12",
+            "font": "Toasty Milk.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 96,
+            "lineHeight": 0,
+            "color": "255;255;255"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -6521,6 +7946,9 @@
             "objectName": "Dark"
           },
           {
+            "objectName": "Text_Info"
+          },
+          {
             "objectName": "pembatas"
           },
           {
@@ -6543,6 +7971,12 @@
           },
           {
             "objectName": "berubah2"
+          },
+          {
+            "objectName": "Background_Waktu"
+          },
+          {
+            "objectName": "Waktu"
           }
         ]
       },
@@ -6610,6 +8044,23 @@
             },
             {
               "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "berubah2"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::PauseAnimation"
+              },
+              "parameters": [
+                "Bunga",
+                "Animation"
+              ]
+            },
+            {
+              "type": {
                 "value": "ActivateBehavior"
               },
               "parameters": [
@@ -6626,6 +8077,17 @@
                 "isIce",
                 "=",
                 "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Waktu",
+                "Text",
+                "=",
+                "\"00:\"+waktu"
               ]
             },
             {
@@ -6916,11 +8378,6 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
@@ -7130,6 +8587,17 @@
           "actions": [
             {
               "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Saklar",
+                "Animation",
+                "=",
+                "\"on\""
+              ]
+            },
+            {
+              "type": {
                 "value": "MettreY"
               },
               "parameters": [
@@ -7234,6 +8702,37 @@
             },
             {
               "type": {
+                "value": "ChangeLayerTimeScale"
+              },
+              "parameters": [
+                "",
+                "",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"Waktu\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Dark",
+                "0",
+                "0",
+                "\"Waktu\""
+              ]
+            },
+            {
+              "type": {
                 "value": "PlatformBehavior::Gravity"
               },
               "parameters": [
@@ -7241,6 +8740,165 @@
                 "PlatformerObject",
                 "=",
                 "TimeDelta() * -1500"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "HasAnyTouchOrMouseStarted"
+              },
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "LayerVisible"
+              },
+              "parameters": [
+                "",
+                "\"Waktu\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Text_Info",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectHeightTween2"
+              },
+              "parameters": [
+                "Background_Waktu",
+                "Tween",
+                "\"backgroundWaktuH\"",
+                "79",
+                "\"linear\"",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectWidthTween2"
+              },
+              "parameters": [
+                "Background_Waktu",
+                "Tween",
+                "\"backgroundWaktuW\"",
+                "141",
+                "\"linear\"",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+              },
+              "parameters": [
+                "Background_Waktu",
+                "Tween",
+                "\"backgroundWaktuX\"",
+                "570",
+                "\"linear\"",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+              },
+              "parameters": [
+                "Background_Waktu",
+                "Tween",
+                "\"backgroundWaktuY\"",
+                "46",
+                "\"linear\"",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddTextObjectCharacterSizeTween2"
+              },
+              "parameters": [
+                "Waktu",
+                "Tween",
+                "\"waktuS\"",
+                "48",
+                "\"linear\"",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+              },
+              "parameters": [
+                "Waktu",
+                "Tween",
+                "\"waktuX\"",
+                "580",
+                "\"linear\"",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+              },
+              "parameters": [
+                "Waktu",
+                "Tween",
+                "\"waktuY\"",
+                "56",
+                "\"linear\"",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Dark",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeLayerTimeScale"
+              },
+              "parameters": [
+                "",
+                "",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"countDown\""
               ]
             }
           ]
@@ -7305,6 +8963,365 @@
               },
               "parameters": [
                 "Character_Air",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Character_Asap",
+                "berubah2",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Character_Asap",
+                "Animation",
+                "=",
+                "\"change\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Character_Air",
+                "Character.X()",
+                "Character.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Character_Asap",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::Gravity"
+              },
+              "parameters": [
+                "Character_Asap",
+                "PlatformerObject",
+                "=",
+                "1000"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::MaxSpeed"
+              },
+              "parameters": [
+                "Character",
+                "PlatformerObject",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"countDown\"",
+                ">",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "waktu",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"countDown\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Waktu",
+                "Text",
+                "=",
+                "\"00:\"+waktu"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "waktu",
+                "<",
+                "10"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Waktu",
+                "Text",
+                "=",
+                "\"00:0\"+waktu"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "waktu",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Character_Asap",
+                "Animation",
+                "=",
+                "\"change\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Character_Air",
+                "Character.X()",
+                "Character.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Character_Asap",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PauseTimer"
+              },
+              "parameters": [
+                "",
+                "\"countDown\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::IsObjectOnGivenFloor"
+              },
+              "parameters": [
+                "Character_Air",
+                "PlatformerObject",
+                "Bunga",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Character",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneInstancesCount"
+              },
+              "parameters": [
+                "",
+                "Character",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
+              },
+              "parameters": [
+                "Bunga",
+                "Animation"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "Bunga",
+                "Animation",
+                "=",
+                "\"mekar\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+              },
+              "parameters": [
+                "Bunga",
+                "Animation"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetCameraCenterX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "600",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenCameraZoom2"
+              },
+              "parameters": [
+                "",
+                "\"zoomBungaAkhir\"",
+                "1.5",
+                "",
+                "\"linear\"",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterY"
+              },
+              "parameters": [
+                "",
+                "=",
+                "320",
+                "",
                 ""
               ]
             }
@@ -7604,6 +9621,59 @@
               }
             }
           ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Waktu",
+          "renderingType": "",
+          "visibility": false,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
         }
       ],
       "behaviorsSharedData": [
@@ -7644,8 +9714,378 @@
           "type": "ScalableCapability::ScalableBehavior"
         },
         {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
+        }
+      ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Levle2",
+      "name": "Levle2",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.1657211724752685,
+        "windowMask": false,
+        "selectedLayer": ""
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 720,
+          "layer": "",
+          "name": "Background",
+          "persistentUuid": "a3f34fdd-b326-4ab9-873d-171280109ea8",
+          "width": 5249,
+          "x": 0,
+          "y": 0,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Kabut",
+          "persistentUuid": "6a7da422-bd72-42b1-9cc3-214c6b8ef196",
+          "width": 0,
+          "x": -63,
+          "y": -566,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Pager",
+          "persistentUuid": "36af47be-3ae5-4ede-8592-1898b632e2ff",
+          "width": 0,
+          "x": -38,
+          "y": 262,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Background",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "background level2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 5249,
+                            "y": 0
+                          },
+                          {
+                            "x": 5249,
+                            "y": 1996
+                          },
+                          {
+                            "x": 0,
+                            "y": 1996
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Kabut",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "kabut level2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 174
+                          },
+                          {
+                            "x": 5324,
+                            "y": 174
+                          },
+                          {
+                            "x": 5324,
+                            "y": 1273
+                          },
+                          {
+                            "x": 0,
+                            "y": 1273
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Pager",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "pagar.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 5481,
+                            "y": 0
+                          },
+                          {
+                            "x": 5481,
+                            "y": 425
+                          },
+                          {
+                            "x": 0,
+                            "y": 425
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Background"
+          },
+          {
+            "objectName": "Kabut"
+          },
+          {
+            "objectName": "Pager"
+          }
+        ]
+      },
+      "events": [],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
         }
       ]
     }
@@ -38979,6 +41419,1412 @@
         }
       ],
       "eventsBasedBehaviors": [],
+      "eventsBasedObjects": []
+    },
+    {
+      "author": "@4ian, Tristan Rhodes (https://victrisgames.itch.io/)",
+      "category": "Movement",
+      "extensionNamespace": "",
+      "fullName": "Ellipse movement",
+      "gdevelopVersion": ">=5.5.222",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLXNpbmUtd2F2ZSIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGQ9Ik0xNi41LDIxQzEzLjUsMjEgMTIuMzEsMTYuNzYgMTEuMDUsMTIuMjhDMTAuMTQsOS4wNCA5LDUgNy41LDVDNC4xMSw1IDQsMTEuOTMgNCwxMkgyQzIsMTEuNjMgMi4wNiwzIDcuNSwzQzEwLjUsMyAxMS43MSw3LjI1IDEyLjk3LDExLjc0QzEzLjgzLDE0LjggMTUsMTkgMTYuNSwxOUMxOS45NCwxOSAyMC4wMywxMi4wNyAyMC4wMywxMkgyMi4wM0MyMi4wMywxMi4zNyAyMS45NywyMSAxNi41LDIxWiIgLz48L3N2Zz4=",
+      "name": "EllipseMovement",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/sine-wave.svg",
+      "shortDescription": "Move objects on ellipses or smoothly back and forth in one direction.",
+      "version": "1.1.0",
+      "description": [
+        "It allows objects to move:",
+        "- on an ellipsis or arcs",
+        "- smoothly vertically or horizontally (by setting one radius to 0)",
+        "- on a sine wave (by adding a force)",
+        "",
+        "Instances will start their movement from their initial position on the scene.",
+        "The center position will be decided according to the \"initial direction\" angle and the radius.",
+        "",
+        "It can be used for:",
+        "- Making objects float, such as powerups or coins",
+        "- Moving platforms",
+        "- Enemy movement patterns",
+        "- Making a player constantly turn right or left ([open the project online](https://editor.gdevelop.io/?project=example://star-seeker))"
+      ],
+      "origin": {
+        "identifier": "EllipseMovement",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "sine",
+        "ellipse",
+        "movement",
+        "circular",
+        "circle",
+        "floating",
+        "platform",
+        "enemy"
+      ],
+      "authorIds": [
+        "wWP8BSlAW0UP4NeaHa2LcmmDzmH2",
+        "gqDaZjCfevOOxBYkK6zlhtZnXCg1",
+        "IWykYNRvhCZBN3vEgKEbBPOR3Oc2"
+      ],
+      "dependencies": [],
+      "globalVariables": [],
+      "sceneVariables": [],
+      "eventsFunctions": [],
+      "eventsBasedBehaviors": [
+        {
+          "description": "Move objects on ellipses or smoothly back and forth in one direction.",
+          "fullName": "Ellipse movement",
+          "name": "EllipseMovement",
+          "objectType": "",
+          "eventsFunctions": [
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "onCreated",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "OldX",
+                        "=",
+                        "Object.X()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "OldY",
+                        "=",
+                        "Object.Y()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Evaluate the center of movement from the object position and properties."
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "InitialTurningLeft",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "LoopDuration",
+                        "*",
+                        "-1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "LoopDuration",
+                        "<",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "MovementAngle",
+                        "=",
+                        "InitialDirectionAngle + 90"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "LoopDuration",
+                        ">=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "MovementAngle",
+                        "=",
+                        "InitialDirectionAngle - 90"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "CenterX",
+                        "=",
+                        "Object.X() - Object.Behavior::DeltaX()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "CenterY",
+                        "=",
+                        "Object.Y() - Object.Behavior::DeltaY()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "EllipseMovement::EllipseMovement",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPreEvents",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Update the center when the object is moved outside of the behavior."
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "CenterX",
+                        "+",
+                        "Object.X() - OldX"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "CenterY",
+                        "+",
+                        "Object.Y() - OldY"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Place the object according to the movement angle."
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "RadiusX",
+                        "!=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "MettreX"
+                      },
+                      "parameters": [
+                        "Object",
+                        "=",
+                        "CenterX + Object.Behavior::DeltaX()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "RadiusY",
+                        "!=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "MettreY"
+                      },
+                      "parameters": [
+                        "Object",
+                        "=",
+                        "CenterY + Object.Behavior::DeltaY()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "ShouldRotate",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetAngle"
+                      },
+                      "parameters": [
+                        "Object",
+                        "=",
+                        "Object.Behavior::DirectionAngle() + RotationOffset"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Save the position to detect when the object is moved outside of the behavior."
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "OldX",
+                        "=",
+                        "Object.X()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "OldY",
+                        "=",
+                        "Object.Y()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "EllipseMovement::EllipseMovement",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPostEvents",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Update the movement angle for the next frame."
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "MovementAngle",
+                        "+",
+                        "360 * TimeDelta() / LoopDuration"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "EllipseMovement::EllipseMovement",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Change the turning direction (left or right).",
+              "fullName": "Turn the other way",
+              "functionType": "Action",
+              "name": "ToggleTurningLeft",
+              "sentence": "_PARAM0_ turn the other way",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "CenterX",
+                        "=",
+                        "2 * Object.X() - Object.Behavior::CenterX()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "CenterY",
+                        "=",
+                        "2 * Object.Y() - Object.Behavior::CenterY()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "MovementAngle",
+                        "+",
+                        "180"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "LoopDuration",
+                        "*",
+                        "-1"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "EllipseMovement::EllipseMovement",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Change the in which side the object is turning (left or right).",
+              "fullName": "Turn left or right",
+              "functionType": "Action",
+              "name": "SetTurningLeft",
+              "sentence": "_PARAM0_ turn left: _PARAM2_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::And"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "EllipseMovement::EllipseMovement::IsTurningLeft"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                "yes",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "GetArgumentAsBoolean"
+                              },
+                              "parameters": [
+                                "\"TurnLeft\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::And"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "EllipseMovement::EllipseMovement::IsTurningLeft"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "GetArgumentAsBoolean"
+                              },
+                              "parameters": [
+                                "\"TurnLeft\""
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "EllipseMovement::EllipseMovement::ToggleTurningLeft"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "EllipseMovement::EllipseMovement",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Turn left",
+                  "name": "TurnLeft",
+                  "type": "yesorno"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Check if the object is turning left.",
+              "fullName": "Is turning left",
+              "functionType": "Condition",
+              "name": "IsTurningLeft",
+              "sentence": "_PARAM0_ is turning left",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "LoopDuration",
+                        "<",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "EllipseMovement::EllipseMovement",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Return the movement angle of the object.",
+              "fullName": "Movement angle",
+              "functionType": "Expression",
+              "name": "MovementAngle",
+              "sentence": "Set initial Y of _PARAM0_ to _PARAM2_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "MovementAngle"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "EllipseMovement::EllipseMovement",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Return the loop duration (in seconds).",
+              "fullName": "Loop duration",
+              "functionType": "Expression",
+              "group": "Configuration",
+              "name": "LoopDuration",
+              "sentence": "Set initial Y of _PARAM0_ to _PARAM2_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "abs(LoopDuration)"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "EllipseMovement::EllipseMovement",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Return the ellipse radius on X axis.",
+              "fullName": "Radius X",
+              "functionType": "Expression",
+              "group": "Configuration",
+              "name": "RadiusX",
+              "sentence": "Set initial Y of _PARAM0_ to _PARAM2_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "RadiusX"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "EllipseMovement::EllipseMovement",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Return the ellipse radius on X axis.",
+              "fullName": "Radius Y",
+              "functionType": "Expression",
+              "group": "Configuration",
+              "name": "RadiusY",
+              "sentence": "Set initial Y of _PARAM0_ to _PARAM2_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "RadiusY"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "EllipseMovement::EllipseMovement",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Return the movement center position on X axis.",
+              "fullName": "Movement center X",
+              "functionType": "Expression",
+              "group": "Configuration",
+              "name": "CenterX",
+              "sentence": "Set initial Y of _PARAM0_ to _PARAM2_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "CenterX"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "EllipseMovement::EllipseMovement",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Return the movement center position on Y axis.",
+              "fullName": "Movement center Y",
+              "functionType": "Expression",
+              "group": "Configuration",
+              "name": "CenterY",
+              "sentence": "Set initial Y of _PARAM0_ to _PARAM2_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "CenterY"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "EllipseMovement::EllipseMovement",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Change the radius on X axis of the movement.",
+              "fullName": "Radius X",
+              "functionType": "Action",
+              "group": "Elliptical movement configuration",
+              "name": "SetRadiusX",
+              "sentence": "Change the radius on X axis of the movement of _PARAM0_ to _PARAM2_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "RadiusX",
+                        "=",
+                        "Value"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "EllipseMovement::EllipseMovement",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Radius X",
+                  "name": "Value",
+                  "type": "expression"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Change the radius on Y axis of the movement.",
+              "fullName": "Radius Y",
+              "functionType": "Action",
+              "group": "Elliptical movement configuration",
+              "name": "SetRadiusY",
+              "sentence": "Change the radius on Y axis of the movement of _PARAM0_ to _PARAM2_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "RadiusY",
+                        "=",
+                        "Value"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "EllipseMovement::EllipseMovement",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Radius Y",
+                  "name": "Value",
+                  "type": "expression"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Change the loop duration.",
+              "fullName": "Loop duration",
+              "functionType": "Action",
+              "group": "Elliptical movement configuration",
+              "name": "SetLoopDuration",
+              "sentence": "Change the loop duration of _PARAM0_ to _PARAM2_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "EllipseMovement::EllipseMovement::IsTurningLeft"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "LoopDuration",
+                        "=",
+                        "-Value"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "EllipseMovement::EllipseMovement::IsTurningLeft"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "LoopDuration",
+                        "=",
+                        "Value"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "EllipseMovement::EllipseMovement",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Speed (in degrees per second)",
+                  "name": "Value",
+                  "type": "expression"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Change the movement angle. The object is teleported according to the angle.",
+              "fullName": "Teleport at an angle",
+              "functionType": "Action",
+              "name": "SetMovementAngle",
+              "sentence": "Teleport _PARAM0_ on the ellipse at _PARAM2_°",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "MovementAngle",
+                        "=",
+                        "Value"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "EllipseMovement::EllipseMovement",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Movement angle",
+                  "name": "Value",
+                  "type": "expression"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "Delta X",
+              "functionType": "Expression",
+              "name": "DeltaX",
+              "private": true,
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "cos(ToRad(MovementAngle)) * RadiusX"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "EllipseMovement::EllipseMovement",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "Delta Y",
+              "functionType": "Expression",
+              "name": "DeltaY",
+              "private": true,
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "sin(ToRad(MovementAngle)) * RadiusY"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "EllipseMovement::EllipseMovement",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "Direction angle",
+              "functionType": "Expression",
+              "name": "DirectionAngle",
+              "private": true,
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "LoopDuration",
+                        "<",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "MovementAngle + 90"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "LoopDuration",
+                        ">=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "MovementAngle - 90"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "EllipseMovement::EllipseMovement",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [
+            {
+              "value": "100",
+              "type": "Number",
+              "unit": "Pixel",
+              "label": "Radius of the movement on X axis",
+              "group": "Ellipse",
+              "name": "RadiusX"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "unit": "Pixel",
+              "label": "Radius of the movement on Y axis",
+              "group": "Ellipse",
+              "name": "RadiusY"
+            },
+            {
+              "value": "6",
+              "type": "Number",
+              "unit": "Second",
+              "label": "Loop duration",
+              "group": "Speed",
+              "name": "LoopDuration"
+            },
+            {
+              "value": "",
+              "type": "Boolean",
+              "label": "Turn left",
+              "group": "Speed",
+              "name": "InitialTurningLeft"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "unit": "DegreeAngle",
+              "label": "Initial direction",
+              "group": "Speed",
+              "name": "InitialDirectionAngle"
+            },
+            {
+              "value": "",
+              "type": "Boolean",
+              "label": "Rotate",
+              "group": "Rotation",
+              "name": "ShouldRotate"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "unit": "DegreeAngle",
+              "label": "Rotation offset",
+              "group": "Rotation",
+              "name": "RotationOffset"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "label": "",
+              "hidden": true,
+              "name": "CenterX"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "label": "",
+              "hidden": true,
+              "name": "CenterY"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "label": "",
+              "hidden": true,
+              "name": "MovementAngle"
+            },
+            {
+              "value": "",
+              "type": "Number",
+              "label": "",
+              "hidden": true,
+              "name": "OldX"
+            },
+            {
+              "value": "",
+              "type": "Number",
+              "label": "",
+              "hidden": true,
+              "name": "OldY"
+            }
+          ],
+          "sharedPropertyDescriptors": []
+        }
+      ],
       "eventsBasedObjects": []
     }
   ],
