@@ -1407,6 +1407,7 @@
           "Flippable": "Flippable"
         },
         {
+          "isFolded": true,
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
           "jumpSpeed": 600,
@@ -2456,6 +2457,7 @@
           "yGrabOffset": 0
         },
         {
+          "isFolded": true,
           "name": "SmoothCamera",
           "type": "SmoothCamera::SmoothCamera",
           "LeftwardSpeed": 0.9,
@@ -3170,6 +3172,7 @@
           "Flippable": "Flippable"
         },
         {
+          "isFolded": true,
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
           "jumpSpeed": 600,
@@ -5775,6 +5778,7 @@
       },
       "events": [
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -5787,6 +5791,17 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "ReadStringFromStorage"
+              },
+              "parameters": [
+                "\"Data\"",
+                "\"Data\"",
+                "",
+                "TempLoad"
+              ]
+            },
             {
               "type": {
                 "value": "PlayMusicCanal"
@@ -5868,6 +5883,68 @@
                 "\"linear\"",
                 "1",
                 ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteSlider::PanelSpriteSlider::SetValue"
+                  },
+                  "parameters": [
+                    "Music",
+                    "=",
+                    "Data.Music",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteSlider::PanelSpriteSlider::SetValue"
+                  },
+                  "parameters": [
+                    "Sound",
+                    "=",
+                    "Data.Sound",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "TempLoad",
+                    "!=",
+                    "\"0\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "JSONToVariableStructure2"
+                  },
+                  "parameters": [
+                    "TempLoad",
+                    "Data"
+                  ]
+                }
               ]
             }
           ]
@@ -6238,6 +6315,16 @@
                 "=",
                 "Music.Value()"
               ]
+            },
+            {
+              "type": {
+                "value": "EcrireFichierTxt"
+              },
+              "parameters": [
+                "\"Data\"",
+                "\"Data\"",
+                "ToJSON(Data)"
+              ]
             }
           ]
         },
@@ -6272,6 +6359,16 @@
                 "Data.Sound",
                 "=",
                 "Sound.Value()"
+              ]
+            },
+            {
+              "type": {
+                "value": "EcrireFichierTxt"
+              },
+              "parameters": [
+                "\"Data\"",
+                "\"Data\"",
+                "ToJSON(Data)"
               ]
             }
           ]
@@ -7594,6 +7691,17 @@
           "actions": [
             {
               "type": {
+                "value": "ReadStringFromStorage"
+              },
+              "parameters": [
+                "\"Data\"",
+                "\"Data\"",
+                "",
+                "TempLoad"
+              ]
+            },
+            {
+              "type": {
                 "value": "EffectCapability::EffectBehavior::EnableEffect"
               },
               "parameters": [
@@ -7612,6 +7720,34 @@
                 "Effect",
                 "\"Effect\"",
                 "no"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "TempLoad",
+                    "!=",
+                    "\"0\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "JSONToVariableStructure2"
+                  },
+                  "parameters": [
+                    "TempLoad",
+                    "Data"
+                  ]
+                }
               ]
             }
           ]
@@ -8174,9 +8310,9 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.28172599320796243,
+        "zoomFactor": 0.367325754505891,
         "windowMask": false,
-        "selectedLayer": "UI"
+        "selectedLayer": ""
       },
       "objectsGroups": [],
       "variables": [
@@ -8202,249 +8338,6 @@
         }
       ],
       "instances": [
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "Intro",
-          "name": "Background",
-          "persistentUuid": "97ff5d48-3c05-4a31-bb92-074a450544ad",
-          "width": 0,
-          "x": 0,
-          "y": 0,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 719,
-          "keepRatio": true,
-          "layer": "Intro",
-          "name": "asap",
-          "persistentUuid": "42d70327-8215-4ac4-b09e-9ca137c758ac",
-          "width": 2898,
-          "x": 0,
-          "y": 0,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "Intro",
-          "name": "Ground",
-          "persistentUuid": "f7ed9b83-cc40-4b70-984f-ff51dd78aa76",
-          "width": 0,
-          "x": 0,
-          "y": 638,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "Intro",
-          "name": "Cloud_1",
-          "persistentUuid": "207fe139-ef52-4c19-ab61-84bffd013842",
-          "width": 0,
-          "x": -259,
-          "y": 129.08,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "Intro",
-          "name": "Cloud_1",
-          "persistentUuid": "95ce0d78-330a-4074-a876-048348ac25f3",
-          "width": 0,
-          "x": 392,
-          "y": -58,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "Intro",
-          "name": "Clound_2",
-          "persistentUuid": "a43197b4-2812-41f6-82d8-0ea0552aa54a",
-          "width": 0,
-          "x": 2555,
-          "y": 6,
-          "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "Intro",
-          "name": "Clound_2",
-          "persistentUuid": "17c621f2-2c52-4552-b690-14658f223fdb",
-          "width": 0,
-          "x": 1858,
-          "y": 97,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "Intro",
-          "name": "Room",
-          "persistentUuid": "54384456-dbf0-4a32-bb55-ccb893f27d48",
-          "width": 0,
-          "x": 552,
-          "y": -65,
-          "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 635.76,
-          "layer": "Intro",
-          "name": "Pohon",
-          "persistentUuid": "6c4e1b56-3975-41b4-87a0-34e8d245bf29",
-          "width": 442.64,
-          "x": -28,
-          "y": 76,
-          "zOrder": 8,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 366.96,
-          "layer": "Intro",
-          "name": "Pohon",
-          "persistentUuid": "46bd7f16-d270-43bc-ae50-9744c4e4cd0b",
-          "width": 255.49,
-          "x": 248,
-          "y": 315,
-          "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 635.75,
-          "layer": "Intro",
-          "name": "Pohon",
-          "persistentUuid": "362d6727-9fb5-4067-8a06-a934a49ce256",
-          "width": 442.64,
-          "x": 2572,
-          "y": 62,
-          "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 48.66,
-          "layer": "Intro",
-          "name": "Bunga",
-          "persistentUuid": "4fdd8372-5b3c-47ef-b696-5758f042f272",
-          "width": 30.96,
-          "x": 594,
-          "y": 274,
-          "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "Intro",
-          "name": "Lantai_Rumah",
-          "persistentUuid": "25f5d5f7-fd08-4264-ac67-0cb3b4fadcee",
-          "width": 0,
-          "x": 651,
-          "y": 613,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 76,
-          "layer": "Intro",
-          "name": "Babak_1",
-          "persistentUuid": "19a27dd5-5349-4cca-99d7-516a1361dea6",
-          "width": 490,
-          "x": 364,
-          "y": -76,
-          "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 720,
-          "keepRatio": true,
-          "layer": "Intro",
-          "name": "Dark",
-          "opacity": 0,
-          "persistentUuid": "24bcfd0b-e285-41dc-9e46-2b9cb694b9b4",
-          "width": 1272,
-          "x": 1,
-          "y": -1,
-          "zOrder": 14,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
         {
           "angle": 0,
           "customSize": true,
@@ -8787,22 +8680,6 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "Character_Air",
-          "persistentUuid": "8d08d08a-e62a-43b1-b2d7-d7a0bc403d0f",
-          "width": 0,
-          "x": 814,
-          "y": 511,
-          "zOrder": 42,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
           "name": "Saklar",
           "persistentUuid": "b1a194c6-5f5f-4285-b00e-9bf24be0c755",
           "width": 0,
@@ -8825,22 +8702,6 @@
           "x": 1162,
           "y": 146,
           "zOrder": 41,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Mark",
-          "persistentUuid": "453a4d41-0c86-42be-b6a9-1baa2b3cda4f",
-          "width": 0,
-          "x": 835,
-          "y": 734,
-          "zOrder": 42,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8976,6 +8837,38 @@
           "x": 21,
           "y": 20,
           "zOrder": 47,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Intro",
+          "name": "Babak_1",
+          "persistentUuid": "71c37a27-1370-4b2b-b93e-3d4dbbfceb01",
+          "width": 0,
+          "x": 107,
+          "y": -193,
+          "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Mark",
+          "persistentUuid": "9dc03eee-70a0-4e5d-ad29-627e7048e23f",
+          "width": 0,
+          "x": 834,
+          "y": 733,
+          "zOrder": 49,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -11407,6 +11300,16 @@
             },
             {
               "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Character",
+                "SmoothCamera",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "HideLayer"
               },
               "parameters": [
@@ -11437,6 +11340,27 @@
             },
             {
               "type": {
+                "value": "Tween::TweenCameraZoom2"
+              },
+              "parameters": [
+                "",
+                "\"zoomBungaAwal\"",
+                "2",
+                "",
+                "\"easeInOutCubic\"",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "ShowLayer"
               },
               "parameters": [
@@ -11446,79 +11370,16 @@
             },
             {
               "type": {
-                "value": "HideLayer"
+                "value": "Tween::TweenNumberEffectPropertyTween"
               },
               "parameters": [
                 "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::TweenCameraPosition2"
-              },
-              "parameters": [
+                "\"introGelap\"",
+                "0.5",
                 "",
-                "\"positionBungaAwal\"",
-                "600",
-                "320",
-                "\"Intro\"",
-                "\"easeInOutCubic\"",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::TweenCameraZoom2"
-              },
-              "parameters": [
-                "",
-                "\"zoomBungaAwal\"",
-                "2",
-                "\"Intro\"",
-                "\"easeInOutCubic\"",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
-              },
-              "parameters": [
-                "Dark",
-                "Effect",
                 "\"Effect\"",
                 "\"brightness\"",
-                "-1"
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-              },
-              "parameters": [
-                "Dark",
-                "Tween",
-                "\"gelap\"",
-                "100",
                 "\"linear\"",
-                "1",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
                 "1"
               ]
             },
@@ -11565,13 +11426,14 @@
                 "",
                 "Ketuk_untuk_lanjut",
                 "490",
-                "445",
+                "500",
                 "\"Intro\""
               ]
             }
           ]
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -11597,62 +11459,12 @@
           "actions": [
             {
               "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "Babak_1",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "Dark",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "Ketuk_untuk_lanjut",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ShowLayer"
-              },
-              "parameters": [
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::TweenCameraPosition2"
-              },
-              "parameters": [
-                "",
-                "\"positionBungaAwal\"",
-                "600",
-                "320",
-                "",
-                "\"easeInOutCubic\"",
-                "1"
-              ]
-            },
-            {
-              "type": {
                 "value": "Tween::TweenCameraZoom2"
               },
               "parameters": [
                 "",
                 "\"zoomBungaAwal\"",
-                "2",
+                "1",
                 "",
                 "\"easeInOutCubic\"",
                 "1"
@@ -11660,9 +11472,16 @@
             },
             {
               "type": {
-                "value": "Wait"
+                "value": "Tween::TweenNumberEffectPropertyTween"
               },
               "parameters": [
+                "",
+                "\"introGelap\"",
+                "1",
+                "",
+                "\"Effect\"",
+                "\"brightness\"",
+                "\"linear\"",
                 "1"
               ]
             },
@@ -11677,15 +11496,33 @@
             },
             {
               "type": {
-                "value": "Tween::TweenCameraZoom2"
+                "value": "Delete"
+              },
+              "parameters": [
+                "Ketuk_untuk_lanjut",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
               },
               "parameters": [
                 "",
-                "\"zoomBungaAwal\"",
-                "1",
-                "",
-                "\"easeInOutCubic\"",
-                "1"
+                "Character_Air",
+                "814",
+                "511",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Character",
+                "SmoothCamera",
+                "yes"
               ]
             },
             {
@@ -11730,30 +11567,6 @@
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
-            {
-              "type": {
-                "value": "SetCameraCenterX"
-              },
-              "parameters": [
-                "",
-                "=",
-                "lerp(CameraCenterX(), Character.X(), 0.1)",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetCameraCenterY"
-              },
-              "parameters": [
-                "",
-                "=",
-                "lerp(CameraCenterY(), Character.Y(), 0.1)",
-                "",
-                ""
-              ]
-            },
             {
               "type": {
                 "value": "ClampCamera"
@@ -12884,25 +12697,7 @@
                 "Character",
                 ""
               ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SceneInstancesCount"
-              },
-              "parameters": [
-                "",
-                "Character",
-                "=",
-                "0"
-              ]
-            }
-          ],
-          "actions": [
+            },
             {
               "type": {
                 "value": "PlaySoundCanal"
@@ -12954,6 +12749,16 @@
           "actions": [
             {
               "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Character",
+                "SmoothCamera",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "HideLayer"
               },
               "parameters": [
@@ -12973,37 +12778,12 @@
             },
             {
               "type": {
-                "value": "SetCameraCenterX"
+                "value": "EcrireFichierTxt"
               },
               "parameters": [
-                "",
-                "=",
-                "600",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetCameraCenterY"
-              },
-              "parameters": [
-                "",
-                "=",
-                "320",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ZoomCamera"
-              },
-              "parameters": [
-                "",
-                "1.5",
-                "",
-                ""
+                "\"Data\"",
+                "\"Data\"",
+                "ToJSON(Data)"
               ]
             },
             {
@@ -13163,6 +12943,7 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -13289,6 +13070,7 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -13415,7 +13197,6 @@
               ]
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -13464,73 +13245,21 @@
                     "=",
                     "\"push\""
                   ]
-                }
-              ],
-              "events": [
+                },
                 {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "SoundPlaying"
-                      },
-                      "parameters": [
-                        "",
-                        "2"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "NumberVariable"
-                      },
-                      "parameters": [
-                        "Data.Sound",
-                        ">",
-                        "0"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::Name"
-                      },
-                      "parameters": [
-                        "Character_Es",
-                        "Animation",
-                        "=",
-                        "\"push\""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PlaySoundCanal"
-                      },
-                      "parameters": [
-                        "",
-                        "Dunia Tetes\\SFX\\Gameplay\\Environment\\Level 1\\Environment - Dorong objek.mp3",
-                        "2",
-                        "",
-                        "Data.Sound",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SeparateFromObjects"
-                      },
-                      "parameters": [
-                        "Gula",
-                        "Character_Es",
-                        ""
-                      ]
-                    }
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "Gula",
+                    "Character_Es",
+                    ""
                   ]
                 }
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -13677,6 +13406,7 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -14130,7 +13860,7 @@
           "isLocked": false,
           "name": "UI",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
